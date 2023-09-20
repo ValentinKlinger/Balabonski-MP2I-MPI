@@ -12,7 +12,7 @@ let interval i j =
     loop i j []
 
 
-let () = List.iter (fun x -> print_int x; print_string " ") (interval 2 1_000_000)
+(* let () = List.iter (fun x -> print_int x; print_string " ") (interval 2 1_000_000) *)
 
 (* correction proposé :
 
