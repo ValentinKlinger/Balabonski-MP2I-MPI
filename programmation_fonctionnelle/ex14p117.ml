@@ -29,7 +29,10 @@ let () = List.iter (fun x -> print_int x; print_string " ") (union l1 l2)
 let () = print_newline ()
 let () = List.iter (fun x -> print_int x; print_string " ") (inter l1 l2) *)
 
-(* let rec union l1 l2 =
+(* 
+Correction proposé dans le manuel :
+
+let rec union l1 l2 =
 match l1, l2 with
 [], _ -> l2
 | _, [] -> l1
